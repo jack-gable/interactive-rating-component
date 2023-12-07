@@ -1,0 +1,17 @@
+.btn {
+	color: var(--white);
+	background-color: var(--primary);
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5000px;
+	height: calc(44 / 16 * 1rem);
+	width: 100%;
+	font-weight: 700;
+	margin-top: 2rem;
+}
+
+.btn:hover,
+.btn:focus {
+	color: var(--primary);
+	background-color: var(--white);
+}

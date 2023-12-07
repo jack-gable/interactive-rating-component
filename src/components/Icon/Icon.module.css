@@ -1,0 +1,14 @@
+.wrapper {
+	width: calc(45 / 16 * 1rem);
+	height: calc(45 / 16 * 1rem);
+	border-radius: 50%;
+	background-color: var(--dark-blue);
+	position: relative;
+}
+
+.icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

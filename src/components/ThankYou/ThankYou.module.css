@@ -1,0 +1,21 @@
+.image {
+	width: calc(150 / 16 * 1rem);
+	margin: 0 auto;
+}
+
+.subtitle {
+	color: var(--light-gray);
+	font-size: 0.9rem;
+	padding-top: calc(4 / 16 * 1rem);
+	text-align: center;
+}
+
+.selection {
+	color: var(--primary);
+	font-size: 0.9rem;
+	background-color: var(--dark-blue);
+	border-radius: 5000px;
+	padding: 4px 16px;
+	margin: 0 auto;
+	width: max-content;
+}
